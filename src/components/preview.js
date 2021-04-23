@@ -32,7 +32,7 @@ const Square = styled.div`
   & > div:first-child {
     top: 0%;
     bottom: 0%;
-    height: 74%;
+    height: 100%;
   }
 `;
 
@@ -53,7 +53,7 @@ const Rect = styled.div`
   & > div:first-child {
     right: 0%;
     left: unset;
-    width: 64%;
+    width: 100%;
   }
 `;
 

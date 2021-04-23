@@ -24,7 +24,7 @@
  @media (width: 1200px) and (height: 1200px) {
    .photo {
     bottom: 0%;
-    height: 74%;
+    height: 100%;
    }
 
    .code {
@@ -36,7 +36,7 @@
    .photo {
      right: 0%;
      left: unset;
-     width: 64%;
+     width: 100%;
    }
 
    .code {
