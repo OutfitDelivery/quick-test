@@ -129,11 +129,11 @@ function App() {
         setIsGenerating(true);
 
         const reqUrl =
-          "https://api.make.cm/make/t/a12aa7cf-e8ad-4a65-afbc-7f7f4490cfcc/sync";
+          "https://api.make.cm/make/t/2ea51661-0fc5-4baf-9298-cc420ec7b4aa/sync";
 
         const headers = {
           'Content-Type': 'application/json',
-          'X-MAKE-API-KEY': '5c790109b709a066f01a163ea1d285f2d90c895e'
+          'X-MAKE-API-KEY': '075ccd51938692039b7295922117ca5fc49ebf0c'
         }
 
         const rectData = {
