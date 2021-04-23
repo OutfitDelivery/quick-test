@@ -1,0 +1,74 @@
+  .App {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+ }
+
+ .photo,
+ .code {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .code {
+   background-image: url('assets/SquareOverlay.png');
+ }
+
+ @media (width: 1200px) and (height: 1200px) {
+   .photo {
+    bottom: 0%;
+    height: 74%;
+   }
+
+   .code {
+     background-image: url('assets/SquareOverlay.png');
+   }
+ }
+
+ @media (width: 1320px) and (height: 691px) {
+   .photo {
+     right: 0%;
+     left: unset;
+     width: 64%;
+   }
+
+   .code {
+     background-image: url('assets/CoverOverlay.png');
+   }
+ }
+
+ /*
+ & > div:first-child {
+    top: 0%;
+    bottom: 0%;
+    height: 74%;
+  }
+`;
+
+const Rect = styled.div`
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-bottom: 52.2%;
+  overflow: hidden;
+  border-radius: 0.33rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
+
+  & > div:first-child {
+    right: 0%;
+    left: unset;
+    width: 64%;
+  } 
+ */
